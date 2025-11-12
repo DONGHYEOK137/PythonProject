@@ -1,0 +1,11 @@
+milk_orders = {'101': {'milk':1, 'yogurt': 5},
+               '102': {'milk':2},
+               '103': {'milk': 1, 'yogurt': 10},
+               '104': {'yogurt': 15}}
+
+
+for k,v in milk_orders.items():
+    if "milk" in v:
+        print(k,"호","milk : ",v['milk'])
+
+
